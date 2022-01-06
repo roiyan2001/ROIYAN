@@ -183,3 +183,10 @@ header .navbar ul li a:hover{
     color:#eee;
     padding:0 .5rem;
 }
+
+footer {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: normal;
+}
