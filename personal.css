@@ -77,8 +77,8 @@ section{
         position: fixed;
         top:0; left:0;
         z-index: 1000;
-        height:100%;
-        width:35rem;
+        height: 100%;
+        width: 35rem;
         background:#eee;
         display: flex;
         align-items: center;
@@ -88,8 +88,9 @@ section{
 }
 
 .A {
-    height: 150px;
+    height: 200px;
     width: 200px;
+    border-radius: 50%;
 }
 
 .header {
@@ -97,6 +98,7 @@ section{
     padding: 5px;
     text-align: center;
     font-size: 35px;
+    height: 100%;
 }
     
 header .navbar{
@@ -119,7 +121,7 @@ header .navbar ul li a{
 }
 
 header .navbar ul li a:hover{
-        background:var(--yellow);
+        background:var(--yellowy);
 }
 
 #menu{
@@ -189,9 +191,78 @@ header .navbar ul li a:hover{
     padding:0 .5rem;
 }
 
-footer {
+.about .row .counter{
+    flex:1 1 48rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .row .counter .box{
+    width:20rem;
+    background:#222;
     text-align: center;
-    color: white;
+    padding: 2rem;
+    margin:2rem;
+}
+
+.about .row .counter .box span{
+    font-size: 4rem;
+    color:var(--yellow);
+}
+
+.about .row .counter .box h3{
     font-size: 2rem;
-    font-weight: normal;
+    color:#fff;
+}
+
+.education .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:1rem 0;
+    padding-left: 3rem;
+}
+
+.education .box-container .box{
+    width:27rem;
+    margin:4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+
+.education .box-container .box span{
+    font-size: 1.3rem;
+    background:#222;
+    color:#fff;
+    border-radius: 5rem;
+    padding:.5rem 2.5rem;
+}
+
+.education .box-container .box h3{
+    font-size: 2rem;
+    color:#fff;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+.education .box-container .box p{
+    font-size: 1.4rem;
+    color:#eee;
+    padding: 1rem 0;
+}
+
+.education .box-container .box i{
+    position: absolute;
+    top:-1.5rem; left:-2.5rem;
+    height:5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color:#fff;
+    background:var(--yellow);
 }
