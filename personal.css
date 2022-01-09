@@ -233,14 +233,6 @@ header .navbar ul li a:hover{
     position: relative;
 }
 
-.education .box-container .box span{
-    font-size: 1.3rem;
-    background:#222;
-    color:#fff;
-    border-radius: 5rem;
-    padding:.5rem 2.5rem;
-}
-
 .education .box-container .box h3{
     font-size: 2rem;
     color:#fff;
