@@ -253,16 +253,3 @@ header .navbar ul li a:hover{
     color:#eee;
     padding: 1rem 0;
 }
-
-.education .box-container .box i{
-    position: absolute;
-    top:-1.5rem; left:-2.5rem;
-    height:5rem;
-    width: 5rem;
-    border-radius: 50%;
-    line-height: 5rem;
-    text-align: center;
-    font-size: 2rem;
-    color:#fff;
-    background:var(--yellow);
-}
