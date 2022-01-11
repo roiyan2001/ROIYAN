@@ -34,6 +34,8 @@ body{
     background: #111;
     overflow-x: hidden;
     padding-left: 35rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 section{
@@ -131,7 +133,7 @@ header .navbar ul li a:hover{
     color:#fff;
     cursor: pointer;
     font-size: 2.5rem;
-    padding:1rem 1.5rem;
+    padding: 1rem 1.5rem;
     z-index: 1000;
     display: none;
 }
@@ -140,7 +142,16 @@ header .navbar ul li a:hover{
     display: flex;
     justify-content: center;
     flex-flow: column;
-    padding:0 15rem;
+    padding: 5rem 20rem;
+    width: 100%;
+    padding-bottom: 20%;
+    text-align: center;
+}
+
+.home .box-container{
+    text-align: center;
+    padding: 13rem 0;
+    margin: 5rem;
 }
 
 .home h3{
@@ -169,7 +180,7 @@ header .navbar ul li a:hover{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding:1rem 0;
+    padding: 3rem 0;
     color: #eee;
 }
 
@@ -202,7 +213,7 @@ header .navbar ul li a:hover{
     width:20rem;
     background:#222;
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 0;
     margin:2rem;
 }
 
@@ -221,7 +232,7 @@ header .navbar ul li a:hover{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding:1rem 0;
+    padding: 2rem 0;
     padding-left: 3rem;
 }
 
@@ -238,10 +249,55 @@ header .navbar ul li a:hover{
     color:#fff;
     padding-top: 1.5rem;
     text-align: center;
+    font-size: 2.0rem;
 }
 
 .education .box-container .box p{
-    font-size: 1.4rem;
+    font-size: 1.0rem;
     color:#eee;
-    padding: 1rem 0;
+    padding: 0rem 0;
+}
+
+.gellery {
+    padding: 1rem;
+    padding-bottom: 35%;
+}
+
+.gellery .box {
+    width: 27rem;
+    margin: 5rem 1rem;
+    padding: 3rem;
+    border: 0.2rem solid #fff;
+    position: relative;
+    padding-bottom: 2rem;
+
+}
+
+.contacts {
+    padding: 1rem;
+    padding-bottom: 60%;
+}
+
+.contacts .box{
+    width: 100%;
+    justify-content: center;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    justify-content: center;
+}
+
+article {
+    float: left;
+    width: 100%;
+    padding: 250px;
+    height: 100rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 2.5rem;
 }
