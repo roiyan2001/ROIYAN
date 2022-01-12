@@ -1,6 +1,3 @@
-# ROIYAN
-Portfolio of Roiyan
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -146,6 +143,30 @@ Portfolio of Roiyan
 
         <h1 class="heading"> <span> contact </span> me </h1>
 
+        <div id="overlay">
+
+            <form onsubmit="event.preventDefault(); validateform()">
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Your name">
+                <small class="error"></small>
+    
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="Your email">
+                <small class="error"></small>
+    
+                <label for="message">message:</label>
+                <textarea id="message" id="name" placeholder="Your message" rows="6"></textarea>
+                <small class="error"></small>
+    
+                <div class="center">
+                    <input type="submit" value="Send Message">
+                    <p id="success"></p>
+                </div>
+    
+            </form>
+        </div>
+
         <div class="box">
             <p>
                 <footer>
@@ -166,23 +187,25 @@ Portfolio of Roiyan
             <div class="input-control">
 
                 <p><label for="Email">E-mail or Phone number</label>
-                <input id="Email"name="Email" type="Email"></p>
+                <input id="Email" name="Email" type="Email"></p>
                 <p><div class="error"></div></p>
 
             </div>
 
             <div class="input-control">
+
                 <p>
-                    <label for="password">Password</label>
-                    <input id="password"name="password" type="password">
+                    <label for="password"> Password </label>
+                    <input id="password" name="password" type="password">
                     <div class="error"></div>
                 </p>
+            
+                <p><button type="submit"> Sign Up </button></p>
+                
+                <p><a href="Forgot your password.html"><p ALIGN=CENTER> Forgot your password? </a></p>
+                <p><a href="Register.html"><p ALIGN=CENTER> Registration </a></p>
+
             </div>
-
-                <p><button type="submit">Sign Up</button></p>
-                <p><a href="#"><p ALIGN=CENTER>Forgot your password?</a></p>
-                <p><a href="#"><p ALIGN=CENTER>Registration</a></p>
-
         </article>
     
     </section>
