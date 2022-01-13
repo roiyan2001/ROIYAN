@@ -144,7 +144,7 @@ header .navbar ul li a:hover{
     flex-flow: column;
     padding: 5rem 20rem;
     width: 100%;
-    padding-bottom: 20%;
+    padding-bottom: 100%;
     text-align: center;
 }
 
@@ -188,7 +188,7 @@ header .navbar ul li a:hover{
     flex:1 1 48rem;
     padding:1rem 1rem;
     padding-left: 6rem;
-    padding-bottom: 20%;
+    padding-bottom: 100%;
 }
 
 .about .row .info h3{
@@ -233,7 +233,7 @@ header .navbar ul li a:hover{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-bottom: 10%;
+    padding-bottom: 100%;
 }
 
 .education .box-container .box{
@@ -260,7 +260,7 @@ header .navbar ul li a:hover{
 
 .gellery {
     padding: 1rem;
-    padding-bottom: 55%;
+    padding-bottom: 100%;
 }
 
 .gellery .box {
@@ -273,7 +273,7 @@ header .navbar ul li a:hover{
 }
 
 .contacts {
-    padding-bottom: 20%;
+    padding-bottom: 100%;
 }
 
 .contacts .box{
@@ -311,10 +311,6 @@ div form input, textarea{
     resize: none;
     border: none;
     border-bottom: 1px solid #D3D3D3;
-}
-
-inout[type="text"]:focus, textarea:focus{
-    border-bottom: 1px solid rgb(255,0,106);
 }
 
 div form textarea::-webkit-scrollbar-thumb {
