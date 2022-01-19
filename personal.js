@@ -78,4 +78,3 @@ if(passwordValue === '') {
 } else {
     setSuccess(password);
 }
-
