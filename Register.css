@@ -1,0 +1,25 @@
+body{
+    background: #111;
+    box-sizing: border-box;
+}
+
+article{
+    align-content: CENTER;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 2.5rem;
+    justify-content: center;
+}
+
+article .input-control{
+    align-content: CENTER;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 2.5rem;
+}
