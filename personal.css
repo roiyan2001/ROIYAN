@@ -264,12 +264,11 @@ header .navbar ul li a:hover{
 }
 
 .gellery .box {
-    width: 27rem;
+    width: 103rem;
     margin: 5rem 1rem;
     padding: 3rem;
     border: 0.2rem solid #fff;
-    position: relative;
-    padding-bottom: 2rem;
+    height: 100;
 }
 
 .contacts {
